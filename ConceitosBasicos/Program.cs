@@ -48,19 +48,19 @@
 //}
 
 using ConceitosBasicos.uteis;
+int escolha; 
 
-
-class Program
+do
 {
-    static void Main()
-    {
+
         Console.WriteLine("Escolha um método para executar:");
+        Console.WriteLine("0. Sair");
         Console.WriteLine("1. Soma de dois números");
         Console.WriteLine("2. Converter metros em milimetros");
         Console.WriteLine("3. Calcular o aumento do salário");
 
         Console.WriteLine("Digite o número da opção: ");
-        int escolha = int.Parse(Console.ReadLine());
+        escolha = int.Parse(Console.ReadLine());
 
         switch (escolha)
         {
@@ -94,6 +94,6 @@ class Program
                 break;
 
         }
-    }
 
-}
+
+} while (escolha != 0) ;
