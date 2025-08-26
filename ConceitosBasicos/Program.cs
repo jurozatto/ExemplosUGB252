@@ -97,26 +97,3 @@ class Program
     }
 
 }
-
-
-
-//SomaDoisNumeros somaDoisNumeros = new SomaDoisNumeros();
-//int resultado = somaDoisNumeros.Somar(20, 50);
-//Console.WriteLine(resultado);
-
-
-//int milimetros = MetrosMilimetros.Converter(50);
-//Console.WriteLine(milimetros);
-
-
-//CalculaAumento calculaAumento = new CalculaAumento();
-//Console.WriteLine("Informe seu salário: ");
-//decimal salario = Convert.ToDecimal(Console.ReadLine());
-//Console.WriteLine("Informe seu percentual de aumento: ");
-//float percentual = float.Parse(Console.ReadLine());
-//decimal percentualAumento = calculaAumento.Calcular(salario, percentual);
-//Console.WriteLine($"Para o salário {salario:c2}, o aumento de {percentual}% corresponde a {percentualAumento:c2}");
-//Console.WriteLine($"O novo salário é {salario + percentualAumento:c2}");
-
-
-
